@@ -1,0 +1,50 @@
+{
+  "sourceId": "ftmo-public-symbols-global-2026-10-07",
+  "pageUrl": "https://ftmo.com/en/symbols/",
+  "endpointUrl": "https://ftmo.com/wp-json/ftmo/symbols",
+  "captureDate": "2026-10-07",
+  "capturedAtUtc": "2026-10-06T21:25:25.205091+00:00",
+  "filters": {
+    "active": true,
+    "region": "global"
+  },
+  "observedCount": 166,
+  "assetClassCounts": {
+    "Forex": 28,
+    "Exotics": 15,
+    "Metals CFD": 9,
+    "Cash CFD": 25,
+    "Crypto CFD": 30,
+    "Equities CFD": 59
+  },
+  "files": {
+    "trading-update-2024-09-19.html": {
+      "sha256": "eca2c43887fb3d3a6b56f1147060116498ee7625bf172500d0e9351d8c338257",
+      "bytes": 271892
+    },
+    "wp-json-routes.json": {
+      "sha256": "ccb4dfe240c7bb1b938c15fd73c28d60d6f7e5a341402410458c403bb3f63ba0",
+      "bytes": 291255
+    },
+    "symbols-response.json": {
+      "sha256": "94bbc5e25e410f87262da34fa88d9b06dc3005769e6bc23d1847957070f2d1e0",
+      "bytes": 232506
+    },
+    "symbols-page.html": {
+      "sha256": "82602f4a7a77125e8554172b679c63bcc18294be6e3a7391bae780059a05c60c",
+      "bytes": 234048
+    },
+    "trading-update-2026-08-27.html": {
+      "sha256": "82ece62a3cc5134e22c9fe15e2034b8da406d786f7bcea87f5516c04c8e02621",
+      "bytes": 266274
+    },
+    "symbols-table.js": {
+      "sha256": "9aa6a9581cf797d4365e7368d69802655bb267862caf7ee6279cd31436dc24a7",
+      "bytes": 24424
+    },
+    "symbols-response.headers": {
+      "sha256": "1c8ac6e5d3e894bec6786d5d6a343e202d7ad0e4fd068f4000b9501840ee82f4",
+      "bytes": 998
+    }
+  }
+}

@@ -1,0 +1,72 @@
+@import "tailwindcss";
+
+/* Retained catalogue captures are evidence, not application styles. */
+@source not "./domain/fx/catalog-source";
+
+:root {
+  --background: 248 248 246;
+  --foreground: 17 24 39;
+  --muted: 243 244 246;
+  --muted-foreground: 75 85 99;
+  --card: 255 255 255;
+  --card-foreground: 17 24 39;
+  --border: 226 232 240;
+  --input: 226 232 240;
+  --primary: 63 121 128;
+  --primary-foreground: 247 250 252;
+  --accent: 240 244 245;
+  --accent-foreground: 17 24 39;
+  --destructive: 185 28 28;
+  --destructive-foreground: 255 255 255;
+  --ring: 63 121 128;
+}
+
+[data-theme="dark"] {
+  --background: 9 12 16;
+  --foreground: 241 245 249;
+  --muted: 24 27 31;
+  --muted-foreground: 148 163 184;
+  --card: 15 18 24;
+  --card-foreground: 241 245 249;
+  --border: 38 45 57;
+  --input: 38 45 57;
+  --primary: 108 177 171;
+  --primary-foreground: 9 12 16;
+  --accent: 24 27 31;
+  --accent-foreground: 241 245 249;
+  --destructive: 248 113 113;
+  --destructive-foreground: 9 12 16;
+  --ring: 108 177 171;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  background: radial-gradient(circle at top, rgba(108, 177, 171, 0.08), transparent 32%), rgb(var(--background));
+  color: rgb(var(--foreground));
+  font-family:
+    Inter,
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+}
+
+::selection {
+  background: rgba(108, 177, 171, 0.28);
+}

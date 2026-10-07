@@ -1,0 +1,26 @@
+node_modules
+dist
+android/.gradle
+android/.idea
+android/build
+android/app/build
+android/local.properties
+.DS_Store
+hs_err_pid*.log
+*.log
+
+# Local credentials and Android release signing
+.env
+.env.*
+!.env.example
+*.jks
+*.keystore
+*.pem
+*.p12
+android/key.properties
+android/keystore.properties
+
+# Generated native release artifacts and test output
+*.apk
+*.aab
+coverage/

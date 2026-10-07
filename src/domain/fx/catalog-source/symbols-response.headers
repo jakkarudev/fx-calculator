@@ -1,0 +1,20 @@
+HTTP/2 200 
+date: Tue, 06 Oct 2026 21:24:23 GMT
+content-type: application/json; charset=UTF-8
+x-powered-by: PHP/8.4.16
+cf-edge-cache: cache,platform=wordpress
+x-robots-tag: noindex
+link: <https://ftmo.com/wp-json/>; rel="https://api.w.org/"
+x-content-type-options: nosniff
+access-control-expose-headers: X-WP-Total, X-WP-TotalPages, Link
+access-control-allow-headers: Authorization, X-WP-Nonce, Content-Disposition, Content-MD5, Content-Type
+allow: GET
+vary: Origin
+strict-transport-security: max-age=31536000; includeSubDomains
+cf-cache-status: DYNAMIC
+set-cookie: __cf_bm=W.7LXn7GIFdpqy4_FkTSfZMfFLwf8Jtu7Jqe7ato9Ys-1791321862.110323-1.0.1.1-3T.DYRmegzPCj9IXMEq02VmU2bTL9vaOp7yvqdTzSHFKIZA4DFCoGpXJHJQ7E2NMD3JCbtCshl0NY.eTPLBEu1wt2U92FuTbtLR59KvX4cWP__pc50qgDlGzS6XvIlFZ; HttpOnly; SameSite=None; Secure; Path=/; Domain=ftmo.com; Expires=Tue, 06 Oct 2026 21:54:23 GMT
+cf-apo-via: origin,page-rules
+server: cloudflare
+cf-ray: a467bb862c95b092-ATH
+alt-svc: h3=":443"; ma=86400
+

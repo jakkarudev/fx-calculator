@@ -1,0 +1,12 @@
+dist
+node_modules
+android/.gradle
+android/build
+android/app/build
+android/app/src/main/assets
+android/capacitor-cordova-android-plugins
+docs
+package-lock.json
+
+# Preserve the exact official source capture and its manifest checksums.
+src/domain/fx/catalog-source
